@@ -1,11 +1,11 @@
 /**
  * @license
- * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.4.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize underscore exports="amd" -o ./underscore/`
  * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
  * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 define(['./arrays', './chaining', './collections', './functions', './objects', './utilities', './collections/forEach', './objects/forOwn', './internals/lodashWrapper', './utilities/mixin', './support', './utilities/templateSettings'], function(arrays, chaining, collections, functions, objects, utilities, forEach, forOwn, lodashWrapper, mixin, support, templateSettings) {
 
@@ -231,7 +231,7 @@ define(['./arrays', './chaining', './collections', './functions', './objects', '
    * @memberOf _
    * @type string
    */
-  lodash.VERSION = '2.4.1';
+  lodash.VERSION = '2.4.2';
 
   // add "Chaining" functions to the wrapper
   lodash.prototype.chain = chaining.wrapperChain;
